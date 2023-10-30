@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title></title>
+	<style type="text/css">
+		.menu-row{
+			background: lightgrey;
+			border-top-left-radius: 25px;
+			border-top-right-radius: 25px;
+		}
+		.bah-menu{
+			background: black;
+			text-align: center;
+            color: white;
+            border-radius: 25px 35px 35px 0px;
+            padding: 13px 0px 13px 0px
+		}
+		.bah1-menu{
+			text-align: center;
+            color: white;
+            border-radius: 25px 35px 35px 0px;
+            padding: 13px 0px 13px 0px
+		}
+		.bah-inpt{
+			border: 1px solid lightgrey;
+			border-radius: 20px;
+			text-align: center;
+			width: 100%;
+		}
+		.bah-sze{
+			font-size: 14px;
+			text-align: center;
+		}
+		.bah-butn{
+			background: #ff5e40;
+			text-align: center;
+			color: white;
+			width: 50%;
+			border-radius: 20px;
+			padding: 10px;
+		}
+		.bah-prg{
+			background: #fff3f0;
+			border: 2px solid #ff5e40;
+			border-radius: 15px;
+		}
+		.bah-box{
+	        box-shadow: 0px 0px 0px 3px lightgrey;
+            border-radius: 25px;
+		}
+		.bah1-box{
+			box-shadow: 0px 0px 0px 3px lightgrey;
+            border-radius: 25px;
+		}
+		.bah2-butn{
+			border: 1px solid lightgray;
+			border-radius: 20px;
+		}
+		.bah3-butn{
+			background: #ff5e40;
+			color: white;
+			border-radius: 20px;
+		}
+		.bah4-butn{
+			border: 1px solid lightgrey;
+			border-radius: 20px;
+		}
+		.bah5-butn{
+			background: #18827f;
+			color: white;
+			border-radius: 20px;
+		}
+		.bah-main{
+		    background: lightgrey;
+            padding: 5px;
+            border-radius: 20px;
+            width: 120px;
+            float: right;
+		}
+		.link-styl{
+			text-decoration: none;
+			color: white;
+		}
+		.bah-off{
+			background: white;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		.link2-styl{
+			text-decoration: none;
+			color: white;
+		}
+
+
+
+		@media only screen and (max-width: 768px) {
+          .menu-hiden {
+            display: none;
+          }
+        }
+        @media only screen and (max-width: 768px) {
+          .bah-butn {
+            width: 100%;
+          }
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-8 col-12 mb-5 bah-box">
+				<div class="row menu-row">
+					<div class="col-3 bah-menu tab-1">
+						<a href="#" class="link2-styl">
+							<span><b>01 <span class="menu-hiden">.Quantità</span></b></span>
+						</a>
+					</div>
+					<div class="col-3 bah1-menu tab-2">
+						<a href="#" class="link2-styl">
+							<span><b>02 <span class="menu-hiden">.Grafica</span></b></span>
+						</a>
+					</div>
+					<div class="col-3 bah1-menu tab-3">
+						<a href="#" class="link2-styl">
+							<span><b>03 <span class="menu-hiden">.Optional</span></b></span>
+						</a>
+					</div>
+					<div class="col-3 bah1-menu tab-4">
+						<a href="#" class="link2-styl">
+							<span><b>04 <span class="menu-hiden">.Riepilogo</span></b></span>
+						</a>
+					</div>
+				</div>
+				<div class="row p-3" style="background: ghostwhite;">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 text-center mt-4">
+						<img src="images/men1.jpg" height="90px" style="border: 5px solid antiquewhite;">
+					</div>
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-6 mt-4">
+						<span>
+							<b>Rocker</b><br>
+							Maglietta Unisex da <br> personalizzare con logo <br> aziendale Articolo STTU758
+						</span>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mt-4 text-center">
+						<a href="#" style="color: black;"><small><b>Dettagli prodotto</b></small></a>
+					</div>
+				</div>	
+				<div class="row mt-4">
+				    <div class="col">
+				    	<span style="font-size: 24px;">
+				    		<b>Scegli colori, taglie e quantità</b>
+				    	</span>
+				    </div>
+			    </div>
+			    <div class="row mt-3">
+				    <div class="col">
+				    	<p>
+				    		<strong>Seleziona i colori</strong> che preferisci, <strong>poi inserisci la quantità</strong> desiderata in corrispondenza delle taglie.
+				    	</p>
+				    </div>
+			    </div>
+			    <div class="page-1">
+			    	<div class="row mt-4">
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img1.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img2.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img3.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img4.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img5.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img6.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img7.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img8.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img9.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img10.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img11.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img12.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img13.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img14.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img15.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img16.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img17.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img18.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img19.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img20.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img21.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img22.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img23.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img24.png" height="40px">
+			        	</div>
+			        	<div class="col-xl-1 col-lg-1 col-md-1 col-2 mt-3">
+			        		<img src="images/img25.png" height="40px">
+			        	</div>
+			        </div>
+			        <div class="row ps-2">
+			        	<div class="col overflow-scroll">
+			        		<table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Colore</th>
+                                        <th>XXS</th>
+                                        <th>XS</th>
+                                        <th>S</th>
+                                        <th>M</th>
+                                        <th>L</th>
+                                        <th>XL</th>
+                                        <th>XXL</th>
+                                        <th>XXXL</th>
+                                        <th>XXXXL</th>
+                                        <th>XXXXXL</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                	<tr>
+                                		<td>
+                                			<div><img src="images/img1.png" height="40px"></div>
+                                			<div><small>White</small></div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>213</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>1978</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>6590</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>16288</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>17661</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>3651</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>3651</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                	</tr>
+                                	<tr>
+                                		<td>
+                                			<div><img src="images/img2.png" height="40px"></div>
+                                			<div><small>Vintage White</small></div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>213</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>1978</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>6590</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>16288</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>17661</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>3651</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>3651</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                	</tr>
+                                	<tr>
+                                		<td>
+                                			<div><img src="images/img3.png" height="40px"></div>
+                                			<div><small>Bright Orange</small></div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>213</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>1978</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>6590</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>16288</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>17661</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>3651</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>3651</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                	</tr>
+                                	<tr>
+                                		<td>
+                                			<div><img src="images/img4.png" height="40px"></div>
+                                			<div><small>Burgundy</small></div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>213</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>1978</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>6590</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>16288</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>17661</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>3651</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>3651</span><br>disponibili</div>
+                                		</td>
+                                		<td>
+                                			<input type="number" name="" placeholder="Q,ta" class="bah-inpt">
+                                			<div class="bah-sze"><span>10712</span><br>disponibili</div>
+                                		</td>
+                                	</tr>
+                                </tbody>
+                            </table>    
+			        	</div>
+			        </div>
+			        <div class="row mt-4">
+			        	<div class="col text-end">
+			        		<span>Totale: <b>0 unità</b></span>
+			        	</div>
+			        </div>		
+			        <div class="row mt-5">
+			        	<div class="col text-end">
+			        		<a href="#">
+			        			<button type="button" class="btn bah-butn">Continua Personalizza</button>
+			        		</a>
+			        	</div>
+			        </div>
+			        <div class="row mt-4">
+			    	    <div class="col p-2 m-5 bah-prg">
+			    		    <span class="p-3">
+			    		    	<b>La nostra produzione resterà ferma dal 13 al 23 agosto</b>
+			    		    </span>
+			    		    <p class="mt-2 p-3">La consegna prima delle vacanze è garantita per ordini effettuati <b>entro venerdì 4/08 </b>per l'abbigliamento personalizzato ed <b>entro martedì 8/08</b> per ordini DTF.Enjoy your summer! ☀️</p>
+			    	    </div>
+			        </div>
+			    </div>
+
+			    <!-- page no 2 -->
+			    <div class="page-2">
+			    	<div class="row border-top mt-3">
+			    		<div class="col-8 mt-3">
+			    			<span><b>Stampa su fronte</b> Nessuna stampa</span>
+			    		</div>
+			    		<div class="col-4 mt-3">
+			    			<div class="bah-main">
+			    				<a href="#" class="d-flex link-styl">
+			    					<div class="bah-off ms-4 rounded-circle"><b>Si</b></div>
+			    				    <div class="bah-on ms-4 rounded-circle"><b>No</b></div>
+			    				</a>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-2 butn-show">
+			    		<div class="col-3">
+			    			<img src="images/shirt2.jpg" height="70px">
+			    		</div>
+			    		<div class="col">
+			    			<div class="row">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    					<small><b>Quanti colori ha la tua grafica?</b></small>
+			    				</div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<select class="form-select w-100 p-2" style="border-radius: 20px;">
+			    						<option>-Seleziona-</option>
+			    						<option>Grafica full color</option>
+			    						<option>Grafica 1 colore</option>
+			    						<option>Grafica 2 colori</option>
+			    						<option>Grafica 3 colori</option>
+			    						<option>Grafica 4 colori</option>
+			    						<option>Grafica 5 colori</option>
+			    						<option>Grafica 6 colori</option>
+			    					</select>
+			    				</div>
+			    			</div>
+			    			<div class="row mt-3">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    					<small><b>Quali sono le dimensioni?</b></small>
+			    				</div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<select class="form-select w-100 p-2" style="border-radius: 20px;">
+			    						<option>-Seleziona-</option>
+			    						<option>Fino a 350*450mm (Grande)</option>
+			    						<option>Fino a 210*297mm(A4)</option>
+			    						<option>Fino a 210*297mm(A4)</option>
+			    					</select>
+			    				</div>
+			    			</div>
+			    			<div class="row mt-3">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    					<small><b>Scegli la tecnica di stampa</b></small>
+			    				</div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio1">
+                                        <label class="form-check-label" for="radio1">
+                                        Stampa digitale DTG
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="radio2">
+                                        <label class="form-check-label" for="radio2">
+                                        Stampa digitale DTF
+                                        </label>
+                                    </div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="row mt-4">
+			    			<small><b>Carica la grafica</b></small>
+			    			<div class="col-6 mt-3">
+			    				<input type="file" name="" class="form-control" style="border-radius: 20px;">
+			    			</div>
+			    			<div class="col-6 mt-3">
+			    				<input type="texarea" name="" class="form-control p-2 pb-4" placeholder="Aggiuni note" style="border-radius: 15px;">
+			    			</div>
+			    		</div>
+			    	</div>
+			    </div>
+
+			    <!-- page no 3 -->
+			    <div class="page-3 mt-4 p-3">
+			    	<div class="row border-top">
+			    		<div class="col mt-3">
+			    			<h5>Etichetta personalizzata</h5>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-3">
+			    		<div class="col-3">
+			    			<img src="images/shirt.jpg" height="62px">
+			    		</div>
+			    		<div class="col">
+			    			<div class="row">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2"><small><b>In omaggio</b></small></div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shirt" id="shirt">
+                                        <label class="form-check-label" for="shirt">
+                                            <small>Etichetta stampata in transfer serigrafico monocolore</small><br>
+                                            <small style="color: #18827f;"><b>Gratis</b></small>
+                                        </label>
+                                    </div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-4 border-top">
+			    		<div class="col mt-4">
+			    			<h5>Piego e imbusto</h5>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-4">
+			    		<div class="col-3">
+			    			<img src="images/invelop.jpg" height="62px">
+			    		</div>
+			    		<div class="col">
+			    			<div class="row">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    					<small><b>Desideri piego e imbustamento?</b></small>
+			    				</div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<div class="form-check">
+                                        <input class="form-check-input" type="radio" name="invelop" id="invelop">
+                                        <label class="form-check-label" for="invelop">
+                                            <small>Senza piego né imbusto (merce sfusa)</small>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="invelop" id="invelop1">
+                                        <label class="form-check-label" for="invelop1">
+                                            <small>Con piega e imbusto singolo (+ €0,50))</small>
+                                        </label>
+                                    </div>
+			    				</div>
+			    			</div>
+			    			<div class="row mt-3">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-3">
+			    					<small><b>Altre opzioni</b></small>
+			    				</div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<div class="form-check mt-3">
+                                        <input class="form-check-input" type="checkbox" name="invelop" id="invelop2">
+                                        <label class="form-check-label" for="invelop2">
+                                            <small>Adesivo chiudi-busta (+ €0,50)</small><br>
+                                             <small style="color: #18827f;">Ordina almeno <b>100 prodotti</b> per attivare questa opzione</small>
+                                        </label>
+                                    </div>
+			    				</div>
+			    			</div>			    			
+			    		</div>
+			    	</div>
+			    	<div class="row mt-4 border-top">
+			    		<div class="col mt-4">
+			    			<h5>Cartellino personalizzato</h5>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-4">
+			    		<div class="col-3">
+			    			<img src="images/shirt2.jpg" height="62px">
+			    		</div>
+			    		<div class="col">
+			    			<div class="row">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    					<small><b>Vuoi un cartellino personalizzato?</b></small>
+			    				</div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shirt2" id="shirt2">
+                                        <label class="form-check-label" for="shirt2">
+                                            <small>Senza piego né imbusto (merce sfusa)</small>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shirt2" id="shirts">
+                                        <label class="form-check-label" for="shirts">
+                                            <small>Senza cartellino</small><br>
+                                            <small style="color: #18827f;">Ordina almeno <b>100 prodotti</b> per attivare questa opzione</small>
+                                        </label>
+                                    </div>
+			    				</div>
+			    			</div>
+			    			<div class="row">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-3">
+			    					<small><b>Altre opzioni</b></small>
+			    				</div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<div class="form-check mt-3">
+                                        <input class="form-check-input" type="checkbox" name="sht" id="shrt">
+                                        <label class="form-check-label" for="shrt">
+                                            <small>pplicazione del cartellino (+ €0,30)</small>
+                                        </label>
+                                    </div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-4 border-top">
+			    		<div class="col mt-4">
+			    			<h5>Imballaggio</h5>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-4">
+			    		<div class="col-3">
+			    			<img src="images/box.jpg" height="62px">
+			    		</div>
+			    		<div class="col">
+			    			<div class="row">
+			    				<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    					<small><b>Che tipo di cartone preferisci?</b></small>
+			    				</div>
+			    				<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    					<div class="form-check">
+                                        <input class="form-check-input" type="radio" name="box" id="box">
+                                        <label class="form-check-label" for="box">
+                                            <small>Cartone spedizione WeLoco</small>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="box" id="box1">
+                                        <label class="form-check-label" for="box1">
+                                            <small>Cartone neutro</small>
+                                        </label>
+                                    </div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<div class="row w-100 mt-3">
+			    		<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-3">
+			    			<button type="button" class="btn w-100 bah2-butn"><b>Indietro</b></button>
+			    		</div>
+			    		<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-3">
+			    			<button type="button" class="btn w-100 bah3-butn"><b>Avanti</b></button>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-4">
+			    	    <div class="col p-2 m-5 bah-prg">
+			    		    <span class="p-3">
+			    		    	<b>La nostra produzione resterà ferma dal 13 al 23 agosto</b>
+			    		    </span>
+			    		    <p class="mt-2 p-3">La consegna prima delle vacanze è garantita per ordini effettuati <b>entro venerdì 4/08 </b>per l'abbigliamento personalizzato ed <b>entro martedì 8/08</b> per ordini DTF.Enjoy your summer! ☀️</p>
+			    	    </div>
+			        </div>
+			    </div>
+
+
+			    <!-- page no 4 -->
+			    <div class="page-4 p-4 mt-3">
+			    	<div class="row">
+			    		<div class="col">
+			    			<h3>Riepilogo lavorazione</h3>
+			    			<p>Se hai scelto di stampare i tuoi capi, proseguendo con l'ordine riceverai una <b>bozza di stampa gratuita.</b></p>
+			    		</div>
+			    	</div>
+			    	<div class="row border-top">
+			    		<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    			<small><b>Quantità</b></small>
+			    		</div>
+			    		<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">10 unità</div>
+			    	</div>
+			    	<div class="row border-top mt-3">
+			    		<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    			<small><b>Colori e taglie</b></small>
+			    		</div>
+			    		<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    			<b>Burgundy</b><br>XXS (4), S (4), M (2)
+			    		</div>
+			    	</div>
+			    	<div class="row border-top mt-3">
+			    		<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    			<small><b>Stampa su fronte</b></small>
+			    		</div>
+			    		<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">Nessuna</div>
+			    	</div>
+			    	<div class="row border-top mt-3">
+			    		<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    			<small><b>Stampa su retro</b></small>
+			    		</div>
+			    		<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">Nessuna</div>
+			    	</div>
+			    	<div class="row border-top mt-3">
+			    		<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    			<small><b>Stampa su lato destro</b></small>
+			    		</div>
+			    		<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">Nessuna</div>
+			    	</div>
+			    	<div class="row border-top mt-3">
+			    		<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    			<small><b>Stampa su lato sinistro</b></small>
+			    		</div>
+			    		<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">Nessuna</div>
+			    	</div>
+			    	<div class="row border-top mt-3">
+			    		<div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-2">
+			    			<small><b>Confezionamento</b></small>
+			    		</div>
+			    		<div class="col-xl-8 col-lg-8 col-md-8 col-12 mt-2">
+			    			<small>
+			    				Etichetta stampata in transfer serigrafico monocolore <br>
+                                <span style="color: #18827f;"><b>Gratis</b></span>
+                                Senza piego né imbusto (merce sfusa) <br>
+                                Senza cartellino <br>
+                                Cartone spedizione WeLoco <br>
+			    			</small>
+			    		</div>
+			    	</div>
+			    	<div class="row mt-4 border-top">
+			    		<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-3">
+			    			<button type="button" class="btn w-100 bah4-butn p-2">
+			    				<b>Indietro</b>
+			    			</button>
+			    		</div>
+			    		<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-3">
+			    			<button type="button" class="btn w-100 bah5-butn p-2">
+			    				<b>Agiungi al carrello</b>
+			    			</button>
+			    		</div>
+			    	</div>
+			    	<div class="row">
+			    	    <div class="col p-2 m-5 bah-prg">
+			    		    <span class="p-3">
+			    		    	<b>La nostra produzione resterà ferma dal 13 al 23 agosto</b>
+			    		    </span>
+			    		    <p class="mt-2 p-3">La consegna prima delle vacanze è garantita per ordini effettuati <b>entro venerdì 4/08 </b>per l'abbigliamento personalizzato ed <b>entro martedì 8/08</b> per ordini DTF.Enjoy your summer! ☀️</p>
+			    	    </div>
+			        </div>
+			    </div>
+			</div>
+
+
+			<div class="col-xl-4 col-12">
+				<div class="card bah1-box">
+					<div class="card-body p-4">
+						<div class="row">
+					        <div class="col">
+					        	<h2>Il tuo preventivo</h2>
+					        </div>
+				        </div>
+				        <div class="row mt-2">
+				        	<div class="col-6">Quantità</div>
+				        	<div class="col-6 text-end">0 unità</div>
+				        </div>
+				        <div class="row mt-2">
+				        	<div class="col-6">Costo unitario</div>
+				        	<div class="col-6 text-end">€ 0,00</div>
+				        </div>
+				        <div class="row mt-2">
+				        	<div class="col-6">Totale netto</div>
+				        	<div class="col-6 text-end">€ 0,00</div>
+				        </div>
+				        <div class="row mt-2">
+				        	<div class="col-6">Iva 22%</div>
+				        	<div class="col-6 text-end ">€ 0,00</div>
+				        </div>
+				        <div class="row mt-2 border-top border-bottom">
+				        	<div class="col-6 mt-2"><b>Totale ordine</b></div>
+				        	<div class="col-6 mt-2 text-end"><b>€ 0,00</b></div>
+				        	<div class="col-6 mt-2 mb-3">(IVA inclusa)</div>
+				        </div>			       
+					</div>
+					<div class="container bg-dark text-white p-4" style="border-radius: 0px 0px 25px 25px;">
+				        <div class="row">
+				        	<div class="col">
+				        		<h4>Nessuna sorpresa, risultato wow!</h4>
+				        	</div>
+				        </div>
+				        <div class="row mt-2">
+				        	<div class="col-2">
+				        		<img src="images/ok.png" width="30px">
+				        	</div>
+				        	<div class="col-10">Revisione gratuita del file grafico</div>
+				        </div>
+				        <div class="row mt-2">
+				        	<div class="col-2">
+				        		<img src="images/ok.png" width="30px">
+				        	</div>
+				        	<div class="col-10">Modifiche illimitate</div>
+				        </div>
+				        <div class="row mt-2">
+				        	<div class="col-2">
+				        		<img src="images/ok.png" width="30px">
+				        	</div>
+				        	<div class="col-10">Revisione gratuita del file grafico</div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.page-2').hide(function(){});
+			$('.page-3').hide(function(){});
+			$('.page-4').hide(function(){});
+			$('.tab-2').click(function(){
+				$('.page-2').show(function(){});
+				$('.page-1').hide(function(){});
+				$('.page-3').hide(function(){});
+				$('.page-4').hide(function(){});
+				$('.tab-2').css({
+					"background-color":"black",
+					"color":"gray",
+					"border-radius":"0px 35px 35px 0px",
+				});
+				$('.tab-1').css({
+					"border-radius":"25px 0px 0px 0px",
+				});
+				$('.tab-3').css({
+					"background-color":"lightgrey",
+				});
+				$('.tab-4').css({
+					"background-color":"lightgrey",
+				});
+			});
+			$('.tab-3').click(function(){
+				$('.page-3').show(function(){});
+				$('.page-1').hide(function(){});
+				$('.page-2').hide(function(){});
+				$('.page-4').hide(function(){});
+				$('.tab-2').css({
+					"background-color":"black",
+					"border-radius":"0px",
+				});
+				$('.tab-3').css({
+					"background-color":"black",
+					"border-radius":"0px 35px 35px 0px",
+				});
+				$('.tab-1').css({
+					"border-radius":"25px 0px 0px 0px",
+				});
+				$('.tab-2').css({
+					"border-radius":"0px",
+				});
+				$('.tab-4').css({
+					"background-color":"lightgrey",
+				});
+			});
+			$('.tab-4').click(function(){
+				$('.page-4').show(function(){});
+				$('.page-1').hide(function(){});
+				$('.page-2').hide(function(){});
+				$('.page-3').hide(function(){});
+				$('.tab-2').css({
+					"background-color":"black",
+					"border-radius":"0px",
+				});
+				$('.tab-3').css({
+					"background-color":"black",
+					"border-radius":"0px",
+				});
+				$('.tab-4').css({
+					"background-color":"black",
+					"border-radius":"0px 35px 35px 0px",
+				});
+				$('.tab-1').css({
+					"border-radius":"25px 0px 0px 0px",
+				});
+				$('.tab-2').css({
+					"border-radius":"0px",
+				});
+				$('.tab-3').css({
+					"border-radius":"0px",
+				});
+			});
+			$('.tab-1').click(function(){
+				$('.page-1').show(function(){});
+				$('.page-2').hide(function(){});
+				$('.page-3').hide(function(){});
+				$('.page-4').hide(function(){});
+				$('.tab-1').css({
+					"border-radius":"25px 35px 35px 0px",
+				});
+				$('.tab-2').css({
+					"background-color":"lightgrey",
+				});
+				$('.tab-3').css({
+					"background-color":"lightgrey",
+				});
+				$('.tab-4').css({
+					"background-color":"lightgrey",
+				});
+			});
+
+
+
+			// $('.bah-on').click(function(){
+		    // 	$(this).css({
+		    // 		"background-color":"white",
+		    // 		"padding-right":"2px",
+		    // 		"padding-left":"2px"
+		    // 	})
+		    // 	$('.bah-off').css({
+		    // 		"background-color":"#1ea5a0",
+		    // 	})
+		    // 	$('.bah-main').css({
+		    // 		"background-color":"#1ea5a0",
+		    // 	})
+		    // });
+		    // $('.bah-off').click(function(){
+		    // 	$(this).css({
+		    // 		"background-color":"white",
+		    // 		"padding-right":"4px",
+		    // 		"padding-left":"4px"
+		    // 	})
+		    // 	$('.bah-on').css({
+		    // 		"background-color":"lightgrey",
+		    // 	})
+		    // 	$('.bah-main').css({
+		    // 		"background-color":"lightgrey",
+		    // 	})
+		    // });
+
+		    $('.butn-show').hide(function(){});
+			$('.bah-main').click(function(){
+				$('.butn-show').toggle(function(){});
+				$(this).css({
+		    		"background-color":"#1ea5a0",
+		    		"padding-right":"2px",
+		    		"padding-left":"2px"
+		    	})
+				$('.bah-on').css({
+					"background-color":"white",
+		    		"padding-right":"2px",
+		    		"padding-left":"2px",
+				})
+				$('.bah-off').css({
+					"background-color":"#1ea5a0",
+				})
+			});
+		});
+
+
+		
+	</script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
